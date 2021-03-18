@@ -1,0 +1,127 @@
+.navBarContainer{
+  background-color: var(--background-menu);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.navBarContainer > img{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+
+}
+
+.navBarContainer p{
+  font-size: 1rem;
+  margin-top: 0.8rem;
+  font-weight: bold;
+}
+
+.lastName {
+  font-size: 1rem;
+  color: var(--background);
+  font-weight: bold;
+}
+
+.navBarItens{
+  margin-top: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-left: 4rem;
+}
+
+.navBarItens button{
+
+  width: 100%;
+  height: 3rem;
+  text-align: left;
+  border:0;
+  margin-top: 1.2rem;
+  background-color: var(--background-menu);
+  color: var(--white);
+
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.navBarItens button:hover{
+  border-left: 7px solid var(--background);
+}
+
+.navBarItens button:active{
+  border-left: 7px solid var(--background);
+}
+
+.navBarItens button:focus{
+  border-left: 7px solid var(--background);
+}
+
+.navBarButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  position: fixed;
+  background-color: var(--background);
+  border: 0;
+  left: 0.5rem;
+  top: 0.5rem;
+  height: 2rem;
+  width: 2rem;
+  
+}
+
+.navBarButton img{
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-top: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-bottom: 1px;
+  color: var(--white);
+}
+
+@media only screen and (max-width: 1228px) {
+  .navBarContainer > img{
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+  
+  }
+  
+  .navBarContainer p{
+    font-size: 1rem;
+    margin-top: 0.8rem;
+    font-weight: bold;
+  }
+
+  .navBarItens{
+    margin-top: 1rem;
+  
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: 1rem;
+  }
+  
+  .navBarItens button{
+  
+    width: 100%;
+    height: 3rem;
+    text-align: left;
+    border:0;
+    margin-top: 1.2rem;
+    background-color: var(--blue);
+    color: var(--white);
+  
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  
+}

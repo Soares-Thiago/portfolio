@@ -1,0 +1,96 @@
+.portfolioHeader{
+  padding-left: 0.2rem;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  border-bottom: 7px solid var(--background-menu);
+}
+
+.portfolioContainer{
+  background-color: var(--box-content);
+  display: grid;
+  grid-template-areas:"photo text";
+  grid-template-columns: 1fr 4fr;
+  margin-bottom: 1rem;
+  height: auto;
+  border-radius: 5px;
+}
+
+.portfolioContainerPhoto{
+  width: 8rem;
+  height: 8rem;
+  grid-area: photo;
+  align-self: center;
+  justify-self: center;
+}
+
+.portfolioContainerPhoto img{
+  width: 7rem;
+  height: 7rem;
+}
+
+.portfolioContainerPhoto a{
+  background-color: var(--background-menu);
+  color:var(--white);
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 0.7rem;
+  margin-left: 0.7rem;
+}
+
+.portfolioContainerText{
+  grid-area: text;
+}
+
+
+.portfolioContainer  p{
+  font-size: 1.3rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+
+@media all and (max-width: 767px) {
+  .portfolioContainer  p{
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  .portfolioContainerPhoto img{
+    width: 5rem;
+    height: 5rem;
+  }
+}
+@media all and (max-width: 500px) {
+  .portfolioContainer  p{
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  .portfolioContainerPhoto img{
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media all and (max-width: 808px) {
+  .portfolioContainer  p{
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  .portfolioContainerPhoto img{
+    width: 5rem;
+    height: 5rem;
+  }
+}

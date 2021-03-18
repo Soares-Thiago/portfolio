@@ -1,0 +1,45 @@
+
+.container {
+  display: grid;
+
+  grid-template-areas:"navbar content ";
+  grid-template-columns: 1fr 4fr;
+  height: 100%;
+
+}
+
+.navbar {
+  position: fixed;
+  grid-area: navbar;
+  height: 100%;
+  width: 20%;
+}
+
+.content {
+  grid-area: content;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.navBarButton{
+  display: none;
+}
+
+@media only screen and (max-width: 1228px) {
+  .container {  
+    display: flex;
+  }
+
+  .content {
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+  }
+
+}
