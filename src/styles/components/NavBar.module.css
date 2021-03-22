@@ -22,7 +22,7 @@
 
 .lastName {
   font-size: 1rem;
-  color: var(--background);
+  color: var(--blue);
   font-weight: bold;
 }
 
@@ -50,15 +50,15 @@
 }
 
 .navBarItens button:hover{
-  border-left: 7px solid var(--background);
+  border-left: 7px solid var(--blue);
 }
 
 .navBarItens button:active{
-  border-left: 7px solid var(--background);
+  border-left: 7px solid var(--blue);
 }
 
 .navBarItens button:focus{
-  border-left: 7px solid var(--background);
+  border-left: 7px solid var(--blue);
 }
 
 .navBarButton{
@@ -67,7 +67,7 @@
   justify-content: center;
   border-radius: 5px;
   position: fixed;
-  background-color: var(--background);
+  background-color: var(--blue);
   border: 0;
   left: 0.5rem;
   top: 0.5rem;
@@ -116,7 +116,6 @@
     text-align: left;
     border:0;
     margin-top: 1.2rem;
-    background-color: var(--blue);
     color: var(--white);
   
     font-size: 1rem;

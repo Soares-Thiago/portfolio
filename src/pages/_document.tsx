@@ -5,6 +5,7 @@ export default class MyDocument extends Document{
     return(
       <Html>
         <Head>
+          <meta property="og:image" content="me.jpg" />
           <link rel="shortcut icon" href="me.jpg" type="image/png"/>
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>

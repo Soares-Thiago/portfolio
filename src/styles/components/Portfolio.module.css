@@ -2,7 +2,7 @@
   padding-left: 0.2rem;
   margin-bottom: 2rem;
   font-size: 0.8rem;
-  border-bottom: 7px solid var(--background-menu);
+  border-bottom: 7px solid var(--blue);
 }
 
 .portfolioContainer{
@@ -29,7 +29,7 @@
 }
 
 .portfolioContainerPhoto a{
-  background-color: var(--background-menu);
+  background-color: var(--background);
   color:var(--white);
   padding: 0.5rem 1rem;
   text-align: center;

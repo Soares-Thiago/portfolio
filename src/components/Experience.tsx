@@ -16,7 +16,7 @@ export function Experience(){
         <img src='/portfolio/qw.png'/>
       </div>
       <div className={styles.experienceContainerText}>
-      <p>Web Developer Pleno - 12/2020 - Atualmente</p>
+      <p>Web Developer Pleno - 11/2020 - 03/2021</p>
         <hr />
         <p>
         Developer Web Pleno em Quimiweb
@@ -32,9 +32,9 @@ export function Experience(){
       <p>Desenvolvedor Web - 04/2018 – 11/2020</p>
         <hr />
         <p>
-        Atuei na empresa Fox Informática em Ourinhos-SP como Desenvolvedor Web PHP;
-        Análise e desenvolvimento de módulos e soluções para um sistema ERP em ambiente Web;
-        Desenvolvimento de um MarketPlace com integrações de portais de pagamento;
+        Atuei na empresa Fox Informática em Ourinhos-SP como Desenvolvedor Web PHP;<br/>
+        Análise e desenvolvimento de módulos e soluções para um sistema ERP em ambiente Web;<br/>
+        Desenvolvimento de um MarketPlace com integrações de portais de pagamento;<br/>
         Tecnologias utilizadas: Linguagem PHP, Framework Bootstrap, JavaScript / JQuery, SGBD Maria DB.
         </p>
       </div>

@@ -21,9 +21,9 @@ export function NavBar(){
 
       <div className={styles.navBarItens}>
         <button onClick={handleAboutPage}>SOBRE MIM</button>
-        <button onClick={handlePortfolioPage}>PORTIFOLIO</button>
+        <button onClick={handlePortfolioPage}>PORTFÓLIO</button>
         <button onClick={handleSkilsPage}>HABILIDADES</button>
-        <button onClick={handleExperiencePage}>EXPERIENCIA</button>
+        <button onClick={handleExperiencePage}>EXPERIÊNCIA</button>
         <button onClick={handleContactPage}>CONTATOS</button>
       </div>  
       

@@ -10,9 +10,10 @@ html, body, #root, .App {
 
 :root{
   --white:#fff;
-  --background: #5c5b5b;
-  --background-menu: #1a1a1a;
-  --box-content: #686868;
+  --background:rgb(37, 37, 37);;
+  --background-menu:rgb(29, 29, 29);;
+  --box-content: #1f1f1f;
+  --blue: #1b3e4d;
 }
 
 body{
