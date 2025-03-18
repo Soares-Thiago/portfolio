@@ -14,7 +14,7 @@ export function Contact(){
     <div className={styles.contactContainer}>
       <div>
         <img src='/contacts/linkedin.png' />
-        <a href="https://www.linkedin.com/in/thiago-pontes-soares-a59646179/" target='?Blank'>ACESSAR</a>
+        <a href="https://www.linkedin.com/in/thiagosoares-developer/" target='?Blank'>ACESSAR</a>
       </div>
       <div>
         <img src='/contacts/github.png' />
