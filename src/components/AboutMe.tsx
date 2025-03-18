@@ -12,7 +12,7 @@ export function AboutMe(){
     <h2>SOBRE MIM</h2>
     </div>
     <div className={styles.aboutMeContainer}>
-      <p>Olá, me chamo Thiago Pontes Soares, sou um desenvolvedor Web full-stack.</p>
+      <p>Olá, sou Thiago Pontes Soares, sou um desenvolvedor Back-end.</p>
       <p>Possuo experiência com desenvolvimento em geral (front-end & back-end), trabalhando com tecnologias como PHP, HTML, CSS, JavaScript (NodeJS, ReactJS).</p>
       <p>“Sou um profissional muito dedicado e disposto a aprender novas tecnologias a fim de aprimorar minhas habilidade, buscando sempre dar o meu melhor no projeto ou organização na qual estou inserido.”</p>
     </div> 
