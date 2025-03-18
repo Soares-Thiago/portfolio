@@ -12,9 +12,10 @@ export function AboutMe(){
     <h2>SOBRE MIM</h2>
     </div>
     <div className={styles.aboutMeContainer}>
-      <p>Olá, sou Thiago Pontes Soares, sou um desenvolvedor Back-end.</p>
-      <p>Possuo experiência com desenvolvimento em geral (front-end & back-end), trabalhando com tecnologias como PHP, HTML, CSS, JavaScript (NodeJS, ReactJS).</p>
-      <p>Sou um profissional muito dedicado e disposto a aprender novas tecnologias a fim de aprimorar minhas habilidade, buscando sempre dar o meu melhor no projeto ou organização na qual estou inserido.</p>
+    <p>Olá! Me chamo Thiago, sou um desenvolvedor com mais de 7 anos de experiência.</p>
+<p>Sou formado em Informática para Internet integrado ao Ensino Médio pela ETEC Jacinto Ferreira de Sá (2015-2017), tendo feito em seguida o Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas pela FATEC - Faculdade de Tecnologia de Ourinhos (2018-2020).</p>
+<p>Possuo experiência com desenvolvimento web (front-end & back-end), já tendo trabalhado com tecnologias como JavaScript (Node.js, React.js), PHP, MongoDB e PostgreSQL.</p>
+<p>Hoje atuo remotamente como Head de Desenvolvimento Back-end na Anota AI, utilizando tecnologias como Node.js e MongoDB, além de gerenciar times e projetos.</p>
     </div> 
     <div className={styles.aboutMeSchoolContainer}>
       <p><img src='/fatec.png' className={styles.fatec}/>Análise e Desenvolvimento de Sistemas, FATEC Ourinhos (2018-2020).</p>

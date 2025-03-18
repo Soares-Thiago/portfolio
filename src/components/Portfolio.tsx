@@ -13,6 +13,21 @@ export function Portfolio(){
     </div>
     <div className={styles.portfolioContainer}>
       <div className={styles.portfolioContainerPhoto}>
+        <img src='/portfolio/anota.png'/>
+        <a href="https://anota.ai/home/" target='?Blank'>VISITAR</a>
+      </div>
+      <div className={styles.portfolioContainerText}>
+      <p>Anota AI</p>
+        <hr />
+        <p>Março/2021 - Atualmente:</p>
+        <p>
+        Atuo como lider do time de desenvolvedores back-end, participando ativamente da solução dos problemas da empresa, desenho da arquitetura, participação da concepção das features e participando da implementação de projetos cross de alta performance e disponibilidade.
+        </p>
+      </div>
+      
+    </div> 
+    <div className={styles.portfolioContainer}>
+      <div className={styles.portfolioContainerPhoto}>
         <img src='/portfolio/rota.png'/>
         <a href="https://rotaourinhos.com.br/" target='?Blank'>VISITAR</a>
       </div>
